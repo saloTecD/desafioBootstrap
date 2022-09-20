@@ -142,6 +142,26 @@ footer {
     text-align: center;
 }
 
+.imagenes{
+    border-radius: 50%;
+}
+
+.H_descarga{
+    text-decoration: none;
+    color: green;
+    font-style: italic;
+    font-weight: bolder;
+}
+.H_subT{
+    font-family: 'DynaPuff', cursive;
+    text-align: justify;
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 5%;}
+
+    .H_subT:hover{
+        transform: scale(1.1);
+        box-shadow: 5px 10px 20px rgb(190, 162, 162);
+    }
 
 /* medias querys................................................................. */
 @media screen and (max-width: 650px) {
